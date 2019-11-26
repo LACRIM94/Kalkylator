@@ -11,7 +11,7 @@
    <children>
       <StackPane prefHeight="50.0" prefWidth="200.0">
          <children>
-            <Label prefHeight="17.0" prefWidth="251.0">
+            <Label fx:id="result" prefHeight="17.0" prefWidth="251.0">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
@@ -75,7 +75,7 @@
       </TilePane>
       <TilePane prefHeight="62.0" prefWidth="250.0">
          <children>
-            <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="60.0" text="C" />
+            <Button mnemonicParsing="false" onAction="#processOperator" prefHeight="60.0" prefWidth="60.0" text="C" />
             <Button mnemonicParsing="false" onAction="#processNum" prefHeight="60.0" prefWidth="60.0" text="0" />
             <Button mnemonicParsing="false" onAction="#processOperator" prefHeight="60.0" prefWidth="60.0" text="=" />
             <Button mnemonicParsing="false" onAction="#processOperator" prefHeight="60.0" prefWidth="60.0" text="-" />
